@@ -1,0 +1,92 @@
+html {
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 15px 0 15px;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: #f2f2f2;
+}
+
+#title {
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 40px 0;
+}
+
+#form-section {
+  width: 60vw;
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+
+#label-input {
+  display: flex;
+  flex-direction: column;
+}
+
+#dob-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 10px 0 30px 0;
+}
+
+
+#dob {
+  width: 200px;
+  height: 35px;
+  padding: 7px 15px;
+  font-family: "General Sans", sans-serif;
+  font-size: 1.2rem;
+  color: rgb(95, 95, 95);
+  border-radius: 0;
+  border: 1px solid rgb(95, 95, 95);
+  cursor: text;
+}
+
+#submit {
+  color: black;
+  background-color: #e74300;
+  border-radius: 0;
+  border: 2px solid #e74300;
+  font-family: 'General Sans', sans-serif;
+  margin-top: 30px;
+  width: 235px;
+  height: 50px;
+  padding: 7px 15px;
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: white;
+  text-decoration: underline;
+}
+
+#result {
+  text-align: center;
+  background-color: red;
+  color: white;
+}

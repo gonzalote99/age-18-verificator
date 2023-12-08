@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://api.fontshare.com/css?f[]=general-sans@400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>age 18 verificator</title>
+</head>
+<body>
+  <header>
+   <h1>18 age verificator calculator</h1>
+  </header>
+
+  <main>
+  <h1 id="title">are you +18</h1>
+  <section id="form-section">
+     <form id="form">
+        <article id="label-input">
+          <label for="dob" id="dob-label">date of birth</label>
+          <input type="date" name="dob" id="dob" min="1900-01-01" required > 
+         
+        </article>
+        <h3 id="info-btn" class="info-btn">
+         <span id="arrow">➔</span>info
+        </h3>
+        <button type="submit" id="submit">submit</button>
+     </form>
+  </section>
+  <p id="result"></p>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
